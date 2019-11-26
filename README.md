@@ -7,7 +7,10 @@ Repository ini berisikan kode dasar dari sintak PHP yang dipelajari dari berbaga
 
 Referensi pembelajaran web :
 1. https://www.php.net/docs.php
-2. 
+2. https://getbootstrap.com/docs/4.3/getting-started/download/
+3. https://getbootstrap.com/docs/4.3/getting-started/introduction/
+4. https://getbootstrap.com/docs/4.3/components/navbar/
+5. https://getbootstrap.com/docs/4.3/components/jumbotron/
 
 Referensi Video Pembelajaran dapat dilihat pada channel youtube refri rifwan pilih play list lalu Belajar OOP PHP
 
