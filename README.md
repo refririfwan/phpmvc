@@ -11,6 +11,9 @@ Referensi pembelajaran web :
 3. https://getbootstrap.com/docs/4.3/getting-started/introduction/
 4. https://getbootstrap.com/docs/4.3/components/navbar/
 5. https://getbootstrap.com/docs/4.3/components/jumbotron/
+6. https://getbootstrap.com/docs/4.3/components/list-group/
+7. https://getbootstrap.com/docs/4.3/components/badge/
+8. https://getbootstrap.com/docs/4.3/components/card/
 
 Referensi Video Pembelajaran dapat dilihat pada channel youtube refri rifwan pilih play list lalu Belajar OOP PHP
 
