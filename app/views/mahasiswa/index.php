@@ -15,8 +15,9 @@
             </div>
             <ul class="list-group">
                 <?php foreach ($data['mhs'] as $mhs) : ?>
-                    <li class="list-group-item d-flex justify-content-between align-items-center"><?= $mhs['nama'] ?>
-                        <a href="<?= BASEURL ?>/Mahasiswa/detail/<?= $mhs['id'] ?>" class="badge badge-primary">detail</a>
+                    <li class="list-group-item"><?= $mhs['nama'] ?>
+                        <a href="<?= BASEURL ?>/Mahasiswa/hapus/<?= $mhs['id'] ?>" class="badge badge-danger float-right ml-1" onclick="return confirm('Yakin ?')">hapus</a>
+                        <a href="<?= BASEURL ?>/Mahasiswa/detail/<?= $mhs['id'] ?>" class="badge badge-primary float-right">detail</a>
                     </li>
                 <?php endforeach ?>
             </ul>
