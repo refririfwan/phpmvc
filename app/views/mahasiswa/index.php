@@ -1,7 +1,13 @@
-<div class="container mt-5">
+<div class="container mt-3">
     <div class="row">
         <div class="col-6">
             <h3>Daftar Mahasiswa</h3>
+            <div class="mt-3 mb-3">
+                <!-- Button trigger modal -->
+                <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#formModal">
+                    Tambah Data Mahasiswa
+                </button>
+            </div>
             <ul class="list-group">
                 <?php foreach ($data['mhs'] as $mhs) : ?>
                     <li class="list-group-item d-flex justify-content-between align-items-center"><?= $mhs['nama'] ?>
@@ -9,6 +15,55 @@
                     </li>
                 <?php endforeach ?>
             </ul>
+        </div>
+    </div>
+</div>
+
+<!-- Modal -->
+<div class="modal fade" id="formModal" tabindex="-1" role="dialog" aria-labelledby="judulModal" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="judulModal">Tambah Data Mahasiswa</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <form action="<?= BASEURL ?>/Mahasiswa/tambah" method="post">
+                    <div class="form-group">
+                        <label for="nama">Nama</label>
+                        <input type="text" class="form-control" id="nama" name="nama">
+                    </div>
+                    <div class="form-group">
+                        <label for="nim">NIM</label>
+                        <input type="text" class="form-control" id="nim" name="nim">
+                    </div>
+                    <div class="form-group">
+                        <input type="text" class="form-control" id="gambar" name="gambar" value="gambar.png" hidden>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" class="form-control" id="email" name="email">
+                    </div>
+                    <div class="form-group">
+                        <label for="jurusan">Jurusan</label>
+                        <select class="form-control" id="jurusan" name="jurusan">
+                            <option value="Teknik Informatika">Teknik Informatika</option>
+                            <option value="Teknik Mesin">Teknik Mesin</option>
+                            <option value="Teknik Elektro">Teknik Elektro</option>
+                            <option value="Teknik Industri">Teknik Industri</option>
+                            <option value="Teknik Pangan">Teknik Pangan</option>
+                            <option value="Teknik Planalogi">Teknik Planalogi</option>
+                            <option value="Teknik Linkungan">Teknik Linkungan</option>
+                        </select>
+                    </div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                <button type="submit" class="btn btn-primary">Tambah Data</button>
+                </form>
+            </div>
         </div>
     </div>
 </div>
