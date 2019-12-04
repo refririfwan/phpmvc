@@ -1,7 +1,7 @@
 # phpmvc
 Belajar MVC dengan PHP
 
-Belajar OOP (Object Oriented Programming) Menggunakan PHP
+Belajar MVC (Model View Controller) Menggunakan PHP
 
 Repository ini berisikan kode dasar dari sintak PHP yang dipelajari dari berbagai sumber pembelajaran.
 
