@@ -20,7 +20,7 @@ Referensi pembelajaran web :
 12. https://getbootstrap.com/docs/4.3/components/alerts/
 13. https://getbootstrap.com/docs/4.3/components/input-group/
 
-Referensi Video Pembelajaran dapat dilihat pada channel youtube refri rifwan pilih play list lalu Belajar OOP PHP
+Referensi Video Pembelajaran dapat dilihat pada channel youtube refri rifwan pilih play list lalu Belajar MVC PHP
 
 Sosial Media :
 1. Facebook : https://www.facebook.com/refri.rifwan
